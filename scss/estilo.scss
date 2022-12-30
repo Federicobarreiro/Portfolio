@@ -1,0 +1,19 @@
+@import "header";
+@import "main";
+@import "article";
+@import "footer";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background-image: url(../imagenes/background-main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

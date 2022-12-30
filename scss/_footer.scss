@@ -1,0 +1,17 @@
+.footer {
+    margin-top: 10vh;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__item {
+    margin: 5px;
+}
+
+@media(min-width:991px) {
+    .footer__item {
+        margin: 10px;
+    }
+}

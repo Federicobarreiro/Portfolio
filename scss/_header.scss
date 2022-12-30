@@ -1,0 +1,60 @@
+.menu {
+    margin-left: -100%;
+    width: 100%;
+    position: absolute;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: black;
+    border-bottom: 2px solid white;
+}
+
+.mostrar {
+    margin-left: 0;
+    transition: 0.5s;
+}
+
+.btnMenu {
+    padding: 10px;
+}
+
+i {
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    background: rgba(255, 255, 255, 0.401);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+/*Responsive*/
+
+@media(min-width:991px) {
+    .btnMenu {
+        display: none;
+    }
+
+    .menu {
+        margin-left: 0;
+        flex-direction: row;
+        height: 10vh;
+        justify-content: flex-start;
+    }
+
+    li {
+        margin: 10px;
+    }
+}
