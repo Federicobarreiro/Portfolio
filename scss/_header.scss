@@ -9,6 +9,7 @@
     justify-content: space-around;
     background: black;
     border-bottom: 2px solid white;
+    z-index: 1;
 }
 
 .mostrar {
@@ -34,7 +35,6 @@ li:hover {
 
 a {
     text-decoration: none;
-    color: white;
     font-size: larger;
     font-weight: bold;
 }
