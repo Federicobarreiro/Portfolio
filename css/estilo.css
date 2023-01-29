@@ -11,6 +11,9 @@
   border-bottom: 2px solid white;
   z-index: 1; }
 
+.btnMenu i {
+  color: black; }
+
 .mostrar {
   margin-left: 0;
   transition: 0.5s; }
@@ -43,6 +46,16 @@ a {
     justify-content: flex-start; }
   li {
     margin: 10px; } }
+
+@keyframes de-izquierda-a-derecha {
+  0% {
+    transform: translatey(-500px); }
+  100% {
+    transform: translatey(0px); } }
+
+h1 {
+  animation-name: de-izquierda-a-derecha;
+  animation-duration: 1s; }
 
 .main {
   display: flex;
